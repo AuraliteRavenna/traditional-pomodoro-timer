@@ -1,0 +1,9 @@
+{
+  "id": "traditional-pomodoro-timer",
+  "name": "Traditional Pomodoro Timer",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "A 25-minute work and 5-minute break Pomodoro timer with a session counter.",
+  "author": "Local",
+  "isDesktopOnly": false
+}

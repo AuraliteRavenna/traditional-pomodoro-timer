@@ -1,0 +1,59 @@
+.pomodoro-view {
+  padding: 18px;
+  text-align: center;
+}
+
+.pomodoro-view h2 {
+  margin: 0 0 18px;
+}
+
+.pomodoro-phase {
+  color: var(--text-muted);
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.pomodoro-time {
+  font-size: 3.6em;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 4px 0;
+}
+
+.pomodoro-detail {
+  color: var(--text-muted);
+  font-size: 0.85em;
+  margin-bottom: 20px;
+}
+
+.pomodoro-controls {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.pomodoro-controls .mod-cta {
+  grid-column: 1 / -1;
+}
+
+.pomodoro-count {
+  border-top: 1px solid var(--background-modifier-border);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding-top: 16px;
+  text-align: left;
+}
+
+.pomodoro-count strong {
+  font-size: 1.5em;
+}
+
+.pomodoro-reset-session {
+  color: var(--text-muted);
+  font-size: 0.85em;
+  margin-top: 12px;
+}
